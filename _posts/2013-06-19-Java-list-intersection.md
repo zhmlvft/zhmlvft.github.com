@@ -2,6 +2,7 @@
 layout: post
 category: java
 tags: List取交集
+title: Java求2个list的交集
 description: 在实际应用中经常会遇到需要提取2个list的交集的场景。
 ---
 
