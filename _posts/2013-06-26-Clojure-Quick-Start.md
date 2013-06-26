@@ -30,8 +30,7 @@ description: Clojure是一种基于java虚拟机的动态编程语言。
 ### 环境配置
 
     1.Leiningen配置
-	    将下载好的leiningen-1.5.2-win.zip解压到c盘根目录中，并且将leiningen-1.7.1-standalone.jar复制到该解压目录中。
-		设置以下环境变量
+	    将下载好的leiningen-1.5.2-win.zip解压到c盘根目录中，并且将leiningen-1.7.1-standalone.jar复制到该解压目录中。设置以下环境变量
 		
 		Path => C:\lein
         LEIN => C:\lein
@@ -43,20 +42,21 @@ description: Clojure是一种基于java虚拟机的动态编程语言。
 	    输入 "lein repl" 启动REPL（读取-求值-打印循环）
 		会显示"user=>"对你提示。
     
-	输入以下内容测试。
-	“(defn hello [name] (str "Hello, " name))”
+	    输入以下内容测试。
+	    “(defn hello [name] (str "Hello, " name))”
 	
-	其中defn定义了一个函数
-	hello是函数的名称
-	hello函数接受一个名为name的参数
-	str是一个函数调用，把由任意参数组成的列表连接成一个字符串
+	其中:
+	    defn定义了一个函数
+	    hello是函数的名称
+	    hello函数接受一个名为name的参数
+	    str是一个函数调用，把由任意参数组成的列表连接成一个字符串
 	
 	测试下我们刚刚定义好的函数
-	输入“(hello "87tu")”
+	    输入“(hello "87tu")”
 	
 	
 ### 小结
-    以上就是Clojure基础环境搭建了。
+    以上就是Clojure基础环境搭建了。下面将探索Clojure。学习语法知识。
 	
 		
     
