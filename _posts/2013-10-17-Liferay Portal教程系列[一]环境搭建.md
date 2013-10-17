@@ -2,7 +2,7 @@
 layout: post
 category: Liferay Portal
 tags: Liferay Portal
-title: Liferay Portal教程系列(一)环境搭建
+title: Liferay Portal教程系列[一]环境搭建
 description: Liferay Portal是一款开源的Portal
 ---
 
