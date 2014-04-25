@@ -40,7 +40,20 @@ description: Spring整合Shiro与CAS
        #复制过来的文件修改之后再打包就会替换原有war包中的文件。
     
     二、配置jdnc验证
-        
+        在工程pom.xml中加入以下依赖
+		
+		<dependency>
+		     <groupId>org.jasig.cas</groupId>
+		     <artifactId>cas-server-support-jdbc</artifactId>
+		     <version>3.5.2</version>
+		</dependency>
+        <dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>5.1.14</version>
+			<type>jar</type>
+		</dependency>
+		
 		打开cas-overlay-3.5.x-master/src/main/webapp/WEB-INF/deployerConfigContext.xml
         找到
 		<bean class="org.jasig.cas.authentication.handler.support.SimpleTestUsernamePasswordAuthenticationHandler" />
