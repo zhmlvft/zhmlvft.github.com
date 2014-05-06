@@ -207,7 +207,7 @@ description: Linux Tomcat集群环境搭建
 
 
 
-###安装配置nginx
+### 安装配置nginx
 	1)环境准备
 		安装环境必须有gcc、gcc-c++、zlib、openssl、pcre、
 	2)下载安装
@@ -233,7 +233,7 @@ description: Linux Tomcat集群环境搭建
 附上我的一个配置文件 [nginx.conf下载地址][nginx_conf_Download],<br />
 		
 		
-###配置环境变量
+### 配置环境变量
 	
 	vi /etc/profile
 	
@@ -250,7 +250,7 @@ description: Linux Tomcat集群环境搭建
 	
 	保存退出之后  source /etc/profile
 
-###安装memcached
+### 安装memcached
 	
 	cd downloadfiles/
 	
@@ -287,7 +287,7 @@ description: Linux Tomcat集群环境搭建
 	如果是root用户启动加上-u root参数
 
 
-###配置集群
+### 配置集群
 	 tomcat集群中主要将session统一交给memcached管理。
 	 
 	MSM(memcached-session-manager) 支持tomcat6 和tomcat7 ，利用 Value（Tomcat 阀）
@@ -409,8 +409,9 @@ description: Linux Tomcat集群环境搭建
 	
 	各种情况配置如上，据说kryo序列化效率比较快，未做测试。	
 
-###测试
-	至此，集群中基本的一些配置已完成，可以写个jsp页面观察在一台tomcat宕机的情况下 
+### 测试
+	
+    至此，集群中基本的一些配置已完成，可以写个jsp页面观察在一台tomcat宕机的情况下 
 	
 	sessionid是否变化。
 	
